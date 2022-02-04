@@ -1,5 +1,45 @@
-# curriculum-cr-training-contact-form
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This repo host an initial code for the tasks performed during the Code Reviewers training.
+# Contact-form-review
 
-Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEViw3QasuJLPLVT/Microverse-Student-Potfolio-Templates-Main?node-id=1%3A1471).
+> For this milestone of our portfolio website, we will add a contact form to the portfolio.
+
+## Built With
+
+- HTML and CSS
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+1. First clone the project $ git clone https://github.com/RolandM99/contact-form-review.git
+2. Then open index.html in your browser
+3. [optional] You can even fork the project
+
+## Author:
+
+👤 **Roland Manful Mweze**
+
+- GitHub: [Rolandm99](https://github.com/RolandM99)
+- Twitter: [@Manfulmwez](https://twitter.com/ManfulMwez)
+- LinkedIn: [Roland N. MWEZE](https://www.linkedin.com/in/roland-n-mweze-8b1045189/)
+  
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
