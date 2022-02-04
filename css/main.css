@@ -326,12 +326,20 @@ li {
   list-style: inside url("../media/svg/circle.svg");
 }
 
+.contact-form-view {
+  height: 1000px;
+}
+
+form {
+  margin-top: -140px;
+  height: 400px;
+}
+
 input[type="email"] {
   display: block;
   box-sizing: border-box;
   margin-bottom: 20px;
   padding: 15px;
-  width: 347px;
   margin-left: -10px;
   height: 52px;
   border: none;
@@ -347,7 +355,6 @@ input[type="text"] {
   margin-bottom: 20px;
   margin-left: -10px;
   padding: 15px;
-  width: 347px;
   height: 52px;
   border: none;
   border-bottom: 1px solid #aaa;
@@ -375,18 +382,18 @@ input[type="text"] {
 } */
 
 .contact-section {
-  display: grid;
-  grid-gap: 58px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
   margin-left: 24px;
   margin-right: 24px;
   margin-top: 100px;
-  grid-template-rows: 58px 480px;
 }
 
 .contact-text {
   text-align: center;
   position: static;
-  width: 357px;
   height: 216px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -406,16 +413,15 @@ input[type="text"] {
   align-items: center;
   padding: 0;
   position: static;
-  width: 327px;
   height: 330px;
   top: 334px;
-  flex: none;
   order: 1;
   flex-grow: 0;
   margin: 250px 24px;
 }
 
 #submit {
+  width: 150px;
   text-align: center;
   margin: 180px 100px;
   padding: 12px;
@@ -429,15 +435,14 @@ input[type="text"] {
   line-height: 24px;
 }
 
-#submit:hover {
+/* #submit:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
   box-sizing: border-box;
-}
+} */
 
 #comment {
-  width: 340px;
   background: #fbf8f7;
   position: absolute;
   margin-left: -14px;
@@ -463,10 +468,9 @@ input[type="text"] {
 }
 
 #top-line {
-  margin-top: 200px;
   height: 1px;
-  margin-bottom: 50px;
-  width: 405px;
+  margin-top: -60px;
+  margin-bottom: 20px;
   background-color: #dfe1e6;
   order: 1;
 }
@@ -478,6 +482,7 @@ input[type="text"] {
 .contact ul {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .contact ul li a {
