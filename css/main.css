@@ -336,7 +336,7 @@ form {
   height: 400px;
 }
 
-input[type="email"] {
+.input {
   margin-left: 40px;
   width: 75%;
   display: block;
@@ -346,24 +346,12 @@ input[type="email"] {
   height: 52px;
   border: none;
   border-bottom: 1px solid #aaa;
-  font-family: 'Inter', sans-serif;
-  font-size: 17px;
   transition: 0.2s ease;
 }
 
-input[type="text"] {
-  margin-left: 40px;
-  width: 75%;
-  display: block;
-  box-sizing: border-box;
-  margin-bottom: 20px;
-  padding: 15px;
-  height: 52px;
-  border: none;
-  border-bottom: 1px solid #aaa;
+input {
   font-family: 'Inter', sans-serif;
   font-size: 17px;
-  transition: 0.2s ease;
 }
 
 .contact-section {
@@ -413,21 +401,19 @@ input[type="text"] {
   margin: 70px 100px;
   padding: 12px;
   border: 1px solid;
-  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   color: #f4f5f7;
-  font-size: 17px;
   background-color: #ff6b00;
   line-height: 24px;
 }
 
-/* #submit:hover {
+#submit:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #f55800;
   box-sizing: border-box;
-} */
+}
 
 #comment {
   width: 76%;
